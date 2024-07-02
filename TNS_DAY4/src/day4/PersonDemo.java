@@ -17,9 +17,18 @@ public class PersonDemo {
 		city= sc.nextLine();
 		
 		p1.setPersonAge(age);
-		p1.setpersonCity(city);
-		p1.setPersonName();
+		p1.setPersonCity(city);
+		p1.setPersonName(name);
 		
+		System.out.println("Person Details Name: "+ p1.getPersonName()+" "+p1.getPersonCity()+ " "+p1.getPersonAge());
+		
+		System.out.println("Enter Person details: Name, age, city");
+		name= sc.nextLine();
+		age=sc.nextInt();
+		city=sc.nextLine();
+		
+		p1=new Person(name, age, city);
+		System.out.println("Person Details Name: "+ p1.getPersonName()+" "+p1.getPersonCity()+ " "+p1.getPersonAge());
 
 	}
 

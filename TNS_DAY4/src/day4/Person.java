@@ -23,7 +23,15 @@ public class Person {
 	public void setPersonCity(String city) {
 		this.personCity = city;
 	}
-	
+	public Person() {
+		System.out.println("Default constructor");
+	}
+	public Person(String personName, int personAge, String personCity) {
+		System.out.println("Parameterized constructor");
+		this.personName = personName;
+		this.personAge = personAge;
+		this.personCity = personCity;
+	}
 	
 	
 	
