@@ -9,7 +9,7 @@ class FinalMethodClass {
 	  final int a = 50;
 	  
 	  //final method
-	  final void show ()
+	  void show ()
 	  {
 		  System.out.println("Value of a :" + a);
 	  }
