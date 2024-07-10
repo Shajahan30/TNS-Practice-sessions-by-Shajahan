@@ -1,5 +1,10 @@
 package interfaceDemo;
 
-public class Student {
+public class Student implements isRegistered {
+
+	public void isRegistered() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

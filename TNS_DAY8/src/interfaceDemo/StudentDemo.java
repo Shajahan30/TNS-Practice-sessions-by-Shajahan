@@ -3,7 +3,8 @@ package interfaceDemo;
 public class StudentDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Student shaan= new Student();
+		shaan.isRegistered();
 
 	}
 

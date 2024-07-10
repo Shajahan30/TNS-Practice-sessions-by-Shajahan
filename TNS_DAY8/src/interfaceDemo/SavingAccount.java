@@ -54,7 +54,6 @@ public class SavingAccount extends Customer implements Bank{
 
 	@Override
 	public void withdraw(float amount) {
-		if(amount<)
 		
 	}
 
