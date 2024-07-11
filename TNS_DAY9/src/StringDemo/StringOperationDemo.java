@@ -14,6 +14,7 @@ public class StringOperationDemo {
 		System.out.println(s3);
 		System.out.println(s1.trim());
 		System.out.println(s1.stripTrailing());
+		System.out.println(s1.isEmpty());
 	}
 
 }
