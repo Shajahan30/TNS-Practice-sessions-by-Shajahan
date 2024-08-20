@@ -3,9 +3,9 @@ package Framework;
 public abstract class NormalAcc extends ShopAcc {
 	public float deliveryCharges;
 
-	public NormalAcc(int accNo, String accNm, int charges, float deliveryCharges) {
+	public NormalAcc(int accNo, String accNm, float charges, float deliveryCharges) {
 		super(accNo, accNm, charges, deliveryCharges);
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public void bookProduct(float charges) {

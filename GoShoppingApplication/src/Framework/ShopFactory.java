@@ -1,8 +1,9 @@
 package Framework;
 
+import Framework.NormalAcc;
+import Framework.PrimeAcc;
+
 public interface ShopFactory {
-	public abstract PrimeAcc getNewPrimeAccount(int accNo,String accNm,float charges,float isPrime);
-	public abstract NormalAcc getNewNormalAccount(int accNo,String accNm,float charges,float deliveryCharge);
-
-
+    PrimeAcc getNewPrimeAcc(int accNo, String accNm, float charges, boolean isPrime);
+    NormalAcc getNewNormalAcc(int accNo, String accNm, float charges, float deliveryCharge);
 }

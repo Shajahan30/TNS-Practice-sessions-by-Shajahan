@@ -3,7 +3,7 @@ package Framework;
 public abstract class ShopAcc {
 	private int accNo;
 	protected String accNm;
-	private int charges;
+	private float charges;
 	private float deliveryCharges;
 	
 	public int getAccNo() {
@@ -18,7 +18,7 @@ public abstract class ShopAcc {
 	public void setAccNm(String accNm) {
 		this.accNm = accNm;
 	}
-	public int getCharges() {
+	public float getCharges() {
 		return charges;
 	}
 	public void setCharges(int charges) {
@@ -31,14 +31,17 @@ public abstract class ShopAcc {
 		this.deliveryCharges = deliveryCharges;
 	}
 	
-	public ShopAcc(int accNo, String accNm, int charges, float deliveryCharges) {
+	public ShopAcc(int accNo, String accNm, float charges2, float deliveryCharges2) {
 		super();
 		this.accNo = accNo;
 		this.accNm = accNm;
-		this.charges = charges;
+		this.charges = charges2;
 		this.deliveryCharges = deliveryCharges;
 	}
-	public void bookProduct() {
+	public ShopAcc(int accNo2, String accNm2, int charges2) {
+		// TODO Auto-generated constructor stub
+	}
+	public static void bookProduct() {
 		
 	}
 	public void items() {
